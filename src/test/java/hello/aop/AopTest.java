@@ -17,7 +17,8 @@ import org.springframework.context.annotation.Import;
 //@Import(AspectV2.class)
 //@Import(AspectV3.class)
 //@Import(AspectV4.class)
-@Import({AspectV5.LogAspect.class, AspectV5.TxAspect.class})
+//@Import({AspectV5.LogAspect.class, AspectV5.TxAspect.class})
+@Import(AspectV6.class)
 public class AopTest {
     @Autowired
     private OrderService orderService;
